@@ -21,7 +21,7 @@ async function waitForCalendar() {
     return new Promise((resolve, reject) => {
         const interval = setInterval(function () {
             console.log('checking for calendar...');
-            const calendar = document.querySelector('.WMX3');
+            const calendar = document.querySelector('.WG53');
             const nextMonthButton = document.querySelector('button[data-automation-id=nextMonthButton]');
 
             if (calendar && nextMonthButton) {
